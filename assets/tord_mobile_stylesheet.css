@@ -1,0 +1,136 @@
+/* IMAGE AND BACKGROND STYLING */
+#heading {
+	border: 2px solid red;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	background-color: yellow;	 
+}
+
+img {
+	animation: rotate 1s linear infinite;
+}
+
+.button {
+	font-weight: 500;
+	font-size: 30px;
+	padding: 5px 20px;
+	border-color: black;
+	border-width: 2px;
+	border-radius: 5px;
+	margin: 15px 20px;
+	cursor: pointer;
+}
+
+.button:nth-child(1){
+	padding: 5px 35px;
+}
+
+div {
+	margin: 20px 0px;
+	text-align: center;
+}
+/* RESULT POPUP STYLING */
+
+#result_block {
+	margin: 0px;
+	max-width: 100%;
+	background-color: #FCCC08;
+	display: block;
+	width: 600px;
+	height: 230px;
+	border-radius: 20px;
+}
+
+#result_header {
+	margin: 0px;
+	color: white;
+	padding: 3px 0px;
+	background-color: #F65845;
+	font: 600 23px helvetica;
+}
+
+#result_name {
+	color: #54034F;
+	padding: 0px 0px;
+	font: 600 80px helvetica;
+}
+
+.button_2 {
+	font-weight: 500;
+	font-size: 20px;
+	padding: 5px 60px;
+	margin: 20px 20px;
+	border-color: black;
+	border-width: 2px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px; 
+	cursor: pointer;
+}
+
+/*SCORECARD STYLING*/
+
+#scorecard {
+	margin: 20px;
+	max-width: 100%;
+	background-color: #FCCC08;
+	display: block;
+	width: 400px;
+	height:auto;
+}
+
+#scorecard h3 {
+	margin: 0px;
+	color: white;
+	padding: 3px 0px;
+	background-color: #F65845;
+	font: 600 23px helvetica;
+}
+#players_header {
+	margin: 10px 0px 0px 17px;
+	padding:0px 0px 0px 0px;
+	width: 50%;
+	display: inline-block;
+	font-size: 30px;
+	text-align:left;
+}
+
+#score {
+	margin:10px 0px 0px 0px;
+	padding:0px 0px 0px 19px;
+	width: 39%;
+	display: inline-block;
+	font-size: 30px;
+}
+
+#scorecard p {
+	padding-left:30px;
+}
+
+#players_name {
+	display:inline-block;
+	width:70%;
+	height: auto;
+	text-align:left;
+	font-size:30px;
+	font-family: helvetica;
+}
+
+#players_score {
+	display:inline-block;
+	width: 25%;
+	text-align:left;
+	font-size: 30px;
+	height: auto;
+	font-family: helvetica;
+}
+
+@keyframes rotate {
+	from{
+		transform: rotate(0deg);
+	}
+	to{
+	    transform: rotate(360deg);
+	}
+}
+
